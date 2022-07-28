@@ -1,28 +1,49 @@
 import React, { Component } from "react";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import EmailIcon from "@material-ui/icons/Email";
+import GithubIcon from "@material-ui/icons/GitHub";
 
-import "./home.css"
+import "./Home.css"
 import "../../utilities.css";
 
 //TODO: REPLACE WITH YOUR OWN CLIENT_ID
 const Home = () => {
   return (
     <>
-      <h1>William Yang</h1>
-      <h2> Welcome to my website!</h2>
-      <ul>
-        <li>
-          Change the Frontend CLIENT_ID (Skeleton.js) to your team's CLIENT_ID (obtain this at
-          http://weblab.to/clientid)
-        </li>
-        <li>Change the Server CLIENT_ID to the same CLIENT_ID (auth.js)</li>
-        <li>
-          Change the Database SRV (mongoConnectionURL) for Atlas (server.js). You got this in the
-          MongoDB setup.
-        </li>
-        <li>Change the Database Name for MongoDB to whatever you put in the SRV (server.js)</li>
-      </ul>
-      <h2>How to go from this skeleton to our actual app</h2>
-      <a href="https://docs.google.com/document/d/110JdHAn3Wnp3_AyQLkqH2W8h5oby7OVsYIeHYSiUzRs/edit?usp=sharing">Check out this getting started guide</a>
+      <div className="home">
+      <div className="about">
+        <h2> Welcome, I'm Will</h2>
+        <div className="prompt">
+          <p>STEM student by day. Writer and philosopher by night. Something in between when I stay up too late.</p>
+          <a href="https://www.linkedin.com/in/william-y-5aa6481a2/"> <LinkedInIcon /> </a>
+          <a href="mailto:wyyang@mit.edu"> <EmailIcon /> </a>
+          <a href="https://github.com/wyang563"> <GithubIcon /> </a>
+        </div>
+      </div>
+      <div className="skills">
+        <h1> Skills</h1>
+        <ol className="list">
+          <li className="item">
+            <h2> Front-End</h2>
+            <span>
+              ReactJS, Angular, Redux, HTML, CSS, React Native, Flutter, NPM,
+              Ionic, BootStrap, MaterialUI, Yarn, TailwindCSS, StyledComponents
+            </span>
+          </li>
+          <li className="item">
+            <h2>Back-End</h2>
+            <span>
+              NodeJS, Java Spring, .NET, ExpressJS, GraphQL, ApolloServer,
+              MySQL, MongoDB, DynamoDB, DigitalOcean, AWS S3, MS SQL
+            </span>
+          </li>
+          <li className="item">
+            <h2>Languages</h2>
+            <span>JavaScript, Java, Python, C#, C, C++, TypeScript, Go</span>
+          </li>
+        </ol>
+      </div>
+    </div>
     </>
   );
 };
