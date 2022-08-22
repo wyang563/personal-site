@@ -5,6 +5,7 @@ import Projects from "./pages/Projects.js";
 import Experience from "./pages/Experiences.js";
 import NotFound from "./pages/NotFound.js";
 import Navbar from "./Navbar.js";
+import Blog from "./pages/Blog.js";
 import { navigate } from "@reach/router";
 
 import "../utilities.css";
@@ -25,6 +26,7 @@ const App = () => {
         <Home path='/' />
         <Projects path='/projects' />
         <Experience path='/experience' />
+        <Blog path="/blog" />
         <NotFound default />
       </Router>
     </>

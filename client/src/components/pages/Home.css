@@ -43,6 +43,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    font-family: 'Bodoni MT';
   }
   
   .skills h1 {
