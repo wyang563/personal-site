@@ -1,0 +1,5 @@
+.blog-text{
+    color: #ffefdb;
+    text-align: left;
+    height: calc(100vh - 100px);
+}

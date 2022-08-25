@@ -42,10 +42,12 @@ const Home = () => {
           <li className="item">
             <h2>Experience</h2>
             <span>
-              <h3>Work:</h3>
-              <h3>Data Science:</h3>
-              <h3>Frontend/Backend:</h3>
-              <h3>Coursework</h3>
+              <h3 className='header'>Work:</h3>
+              <p> <b>NLmatics Machine Learning Research Engineer </b> - worked on research in improving document retrieval systems using dual question/contect encoders.</p>
+              <p> <b>Biostatistics Researcher </b> - </p>
+              <h3 className='header'>Data Science:</h3>
+              <h3 className='header'>Frontend/Backend:</h3>
+              <h3 className='header'>Coursework:</h3>
             </span>
           </li>
           <li className="item">
