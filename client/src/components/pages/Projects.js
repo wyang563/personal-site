@@ -3,7 +3,7 @@ import React from 'react';
 function Projects() {
   return (
     <>
-        <div>Projects</div>
+        <h1>You found my secret page ehe congor</h1>
     </>
   )
 }

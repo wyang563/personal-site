@@ -36,6 +36,7 @@ body {
   padding: 0;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
+  background-color:  #2F4454;
 }
 
 form {
@@ -80,7 +81,7 @@ form {
 }
 
 .u-link {
-  color: var(--primary);
+  color: var(--grey);
   text-decoration: none;
   cursor: pointer;
 }

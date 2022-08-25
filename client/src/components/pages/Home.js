@@ -43,18 +43,24 @@ const Home = () => {
             <h2>Experience</h2>
             <span>
               <h3 className='header'>Work:</h3>
-              <p> <b>NLmatics Machine Learning Research Engineer </b> - worked on research in improving document retrieval systems using dual question/contect encoders.</p>
-              <p> <b>Biostatistics Researcher </b> - </p>
-              <h3 className='header'>Data Science:</h3>
+              <p> <b>NLmatics Machine Learning Research Engineer </b> - Worked on research in improving document retrieval systems using dual question/contect encoders. My model was incorporated into the NLmatics search engine to improve product performance.</p>
+              <p> <b>Biostatistics Researcher </b> - Created a RNA data analysis Python library. Programmed a variety of tools in the library: a regression model, bootstrapping/permutation tests, and heatmap generation.</p>
+              <p> <b>Tutoring </b> - Done work in teaching competition and SAT math as well as public speaking. I was also a debate coach/TA in high shcool.</p>
+              <h3 className='header'>General Programming:</h3>
+              Python, C++, Pytorch, Numpy, Pandas, Selenium
               <h3 className='header'>Frontend/Backend:</h3>
+              HTML, CSS, Javascript, ReactJS
               <h3 className='header'>Coursework:</h3>
+              Intro to Machine Learning, Design and Analysis of Algorithms, Linear Algebra, Multi-variable Calculus, Differential Eqs, Discrete Math
             </span>
           </li>
           <li className="item">
             <h2>Interesting Websites/Reading</h2>
             <span>
               <h3>Below is a compilation of interesting concepts:</h3>
-              <h3>Stuff I've Read or Plan to Read:</h3>
+              <p><a href="https://www.denizcemonduygu.com/philo/browse/"> A History of Philosophy</a> </p>
+              <p> <a href="https://xefer.com/wikipedia">All Wiki Articles Lead to Philosophy</a> </p>
+              <p><a href="https://en.wikipedia.org/wiki/Special:Random"> Click for a Random Article</a></p>
             </span>
           </li>
         </ol>

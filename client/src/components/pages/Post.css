@@ -7,13 +7,16 @@
   .heading {
     display: flex;
     flex-direction: row;
+    text-align: left;
     color: #ffefdb;
+    width: 80%
   }
   .text-body {
     display: flex;
     padding-right: 200px;
     text-align: left;
     color: #ffefdb;
+
   }
   .posts-container {
     display: flex;

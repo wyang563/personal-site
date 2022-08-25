@@ -12,12 +12,13 @@
   font-size: 40px;
 }
 .Blog {
-    width: 100%;
+    width: 80%;
     left: 0;
-    height: calc(100vh - 100px);
+    height: auto;
     min-height: 100vh;
     display: flex;
     padding-left: 300px;
+    padding-bottom: 4000px; /* Adjust in the future if needed depending on blog post article length */
     flex-direction: column;
     justify-content: center;
     align-items: left;

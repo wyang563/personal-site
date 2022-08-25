@@ -2,7 +2,7 @@
     width: 100%;
     align-items: center;
     font-family: "Arial", sans-serif;
-    color: #3e497a;
+    color: #fff;
   }
   
   .about {
@@ -17,13 +17,13 @@
     text-align: center;
     background-color: #21325e;
     background-image: url("../images/galaxy.jpg");
-    color: #D0DDD7;
+    color: #fff;
   }
   
   .about h2 {
     font-family: "Segoe UI";
     font-size: 80px;
-    color: #D0DDD7;
+    color: #fff;
     height: 50px;
   }
   
@@ -48,7 +48,7 @@
   }
   
   .skills h1 {
-    color: #3e497a;
+    color: #fff;
   }
   
   .skills .list {
@@ -85,4 +85,9 @@
     .skills h2 {
       font-size: 30px;
     }
+  }
+
+  a {
+    color: white;
+
   }
