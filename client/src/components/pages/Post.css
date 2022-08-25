@@ -1,0 +1,24 @@
+#root {
+    height: 100vh;
+  }
+  .link{
+    color: #fff;
+  }
+  .heading {
+    display: flex;
+    flex-direction: row;
+    color: #ffefdb;
+  }
+  .text-body {
+    display: flex;
+    padding-right: 200px;
+    text-align: left;
+    color: #ffefdb;
+  }
+  .posts-container {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 100px);
+    padding-left: 200px;
+    padding-right: 50px;
+  }
